@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  get 'pages/home'
+
+  root 'pages#home' #pages controller with home action.
 
   
 end
