@@ -32,9 +32,14 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 gem "twitter-bootstrap-rails"
+
 gem "font-awesome-rails"
+
 gem 'simple_form'
+
 gem 'devise'
+
+gem 'auto_html', '~> 1.6.4'
 
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
